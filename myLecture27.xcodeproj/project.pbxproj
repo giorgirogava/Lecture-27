@@ -14,6 +14,8 @@
 		885500212726DB0C00B832FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885500202726DB0C00B832FD /* Assets.xcassets */; };
 		885500242726DB0C00B832FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885500222726DB0C00B832FD /* LaunchScreen.storyboard */; };
 		885500312726F8E600B832FD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885500302726F8E600B832FD /* UIButton+Extension.swift */; };
+		8855003B2727039F00B832FD /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855003A2727039F00B832FD /* RegistrationViewController.swift */; };
+		8855003D272703B000B832FD /* RegistrationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8855003C272703B000B832FD /* RegistrationViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		885500232726DB0C00B832FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		885500252726DB0C00B832FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		885500302726F8E600B832FD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		8855003A2727039F00B832FD /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		8855003C272703B000B832FD /* RegistrationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		8855002C2726F84B00B832FD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				885500382727034600B832FD /* Registration */,
 				8855002D2726F85600B832FD /* Main */,
 			);
 			path = Scenes;
@@ -108,6 +113,23 @@
 				885500302726F8E600B832FD /* UIButton+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		885500382727034600B832FD /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				885500392727035B00B832FD /* View */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		885500392727035B00B832FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8855003A2727039F00B832FD /* RegistrationViewController.swift */,
+				8855003C272703B000B832FD /* RegistrationViewController.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +191,7 @@
 			files = (
 				885500242726DB0C00B832FD /* LaunchScreen.storyboard in Resources */,
 				885500212726DB0C00B832FD /* Assets.xcassets in Resources */,
+				8855003D272703B000B832FD /* RegistrationViewController.storyboard in Resources */,
 				8855001F2726DB0B00B832FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +207,7 @@
 				885500312726F8E600B832FD /* UIButton+Extension.swift in Sources */,
 				885500182726DB0B00B832FD /* AppDelegate.swift in Sources */,
 				8855001A2726DB0B00B832FD /* SceneDelegate.swift in Sources */,
+				8855003B2727039F00B832FD /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
