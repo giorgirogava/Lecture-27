@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         
     }
     
+    func drawCircle () {
+        
+        // it is func it draws circle 
+        
+    }
+    
     
     
     
