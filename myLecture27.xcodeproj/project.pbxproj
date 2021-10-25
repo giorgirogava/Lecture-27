@@ -56,15 +56,39 @@
 		885500162726DB0B00B832FD /* myLecture27 */ = {
 			isa = PBXGroup;
 			children = (
+				8855002B2726F83B00B832FD /* Presentatioin */,
 				885500172726DB0B00B832FD /* AppDelegate.swift */,
 				885500192726DB0B00B832FD /* SceneDelegate.swift */,
-				8855001B2726DB0B00B832FD /* ViewController.swift */,
-				8855001D2726DB0B00B832FD /* Main.storyboard */,
 				885500202726DB0C00B832FD /* Assets.xcassets */,
 				885500222726DB0C00B832FD /* LaunchScreen.storyboard */,
 				885500252726DB0C00B832FD /* Info.plist */,
 			);
 			path = myLecture27;
+			sourceTree = "<group>";
+		};
+		8855002B2726F83B00B832FD /* Presentatioin */ = {
+			isa = PBXGroup;
+			children = (
+				8855002C2726F84B00B832FD /* Scenes */,
+			);
+			path = Presentatioin;
+			sourceTree = "<group>";
+		};
+		8855002C2726F84B00B832FD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8855002D2726F85600B832FD /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8855002D2726F85600B832FD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8855001B2726DB0B00B832FD /* ViewController.swift */,
+				8855001D2726DB0B00B832FD /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
