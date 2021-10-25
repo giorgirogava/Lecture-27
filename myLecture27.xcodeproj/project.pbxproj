@@ -13,6 +13,7 @@
 		8855001F2726DB0B00B832FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8855001D2726DB0B00B832FD /* Main.storyboard */; };
 		885500212726DB0C00B832FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885500202726DB0C00B832FD /* Assets.xcassets */; };
 		885500242726DB0C00B832FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885500222726DB0C00B832FD /* LaunchScreen.storyboard */; };
+		885500312726F8E600B832FD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885500302726F8E600B832FD /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		885500202726DB0C00B832FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		885500232726DB0C00B832FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		885500252726DB0C00B832FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885500302726F8E600B832FD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		885500162726DB0B00B832FD /* myLecture27 */ = {
 			isa = PBXGroup;
 			children = (
+				8855002E2726F89E00B832FD /* Infrastructure */,
 				8855002B2726F83B00B832FD /* Presentatioin */,
 				885500172726DB0B00B832FD /* AppDelegate.swift */,
 				885500192726DB0B00B832FD /* SceneDelegate.swift */,
@@ -89,6 +92,22 @@
 				8855001D2726DB0B00B832FD /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8855002E2726F89E00B832FD /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8855002F2726F8AB00B832FD /* Extensions */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		8855002F2726F8AB00B832FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				885500302726F8E600B832FD /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8855001C2726DB0B00B832FD /* ViewController.swift in Sources */,
+				885500312726F8E600B832FD /* UIButton+Extension.swift in Sources */,
 				885500182726DB0B00B832FD /* AppDelegate.swift in Sources */,
 				8855001A2726DB0B00B832FD /* SceneDelegate.swift in Sources */,
 			);
